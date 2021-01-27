@@ -16,8 +16,41 @@
 *.nar
 *.ear
 *.zip
+*.tar
 *.tar.gz
 *.rar
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+target/
+
+#eclipse
+.settings/
+.project
+.classpath
+
+#idea
+.idea/
+*.ipr
+*.iml
+*.iws
+
+#temp file
+*.cache
+*.diff
+*.patch
+*.tmp
+*.java~
+*.properties~
+*.xml~
+
+#system
+.DS_Store
+Thumbs.db
+Servers
+.metadata
+temp
+logs
+
+
