@@ -31,6 +31,12 @@ public class Response implements Serializable {
     }
 
 
+    public static Response data(Object data){
+        Response response = ok();
+        response.data = data;
+
+        return response;
+    }
 
 
 
