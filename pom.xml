@@ -31,6 +31,7 @@
         <alibaba.cloud.version>2.2.1.RELEASE</alibaba.cloud.version>
         <alibaba.fastjson.version>1.2.60</alibaba.fastjson.version>
         <mybatis-plus.version>3.4.2</mybatis-plus.version>
+        <druid-datasource-starter.version>1.2.4</druid-datasource-starter.version>
 
     </properties>
 

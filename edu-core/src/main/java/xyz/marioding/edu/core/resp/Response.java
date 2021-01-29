@@ -31,14 +31,27 @@ public class Response implements Serializable {
     }
 
 
-    public static Response data(Object data){
-        Response response = ok();
-        response.data = data;
-
-        return response;
+    public String getRetCode() {
+        return retCode;
     }
 
+    public void setRetCode(String retCode) {
+        this.retCode = retCode;
+    }
 
+    public String getRetMsg() {
+        return retMsg;
+    }
 
+    public void setRetMsg(String retMsg) {
+        this.retMsg = retMsg;
+    }
 
+    public Object getData() {
+        return data;
+    }
+
+    public void setData(Object data) {
+        this.data = data;
+    }
 }
