@@ -10,6 +10,7 @@
     <modules>
         <module>edu-demo-service</module>
         <module>edu-core</module>
+        <module>edu-authority-service</module>
     </modules>
     <packaging>pom</packaging>
 
